@@ -1,5 +1,3 @@
-**You have 48 hours to complete this task.**
-
 ### Applied Music Theory
 
 In music theory, [an interval](https://en.wikipedia.org/wiki/Interval_(music)) is a distance between two notes. This distance is specified using a letter and a number. For example, valid names of intervals are M3, P5, or m7. The letter and the number in the interval name mean specific things.
@@ -91,18 +89,17 @@ C C# Db D D# Eb E F F# Gb G G# Ab A A# Bb B
 m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8
 - If the interval does not fit a description, an exception should be thrown: "Cannot identify the interval".
 
-**Input examples and meaning:**
+**Input examples and meaning:** <br>
 ['C', 'D'] - find an interval between C and D <br>
 ['C#', 'Fb'] - find an interval between C# and Fb <br>
 ['A', 'G#'] - find an interval between A and G# <br>
 
 
 ### How to submit
-- You have 48 hours to complete this task.
-- Create your personal private repository in GitHub. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
+- Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
 - The end time is the time of your last commit in your repository.
 - Submit one file named 'intervals.js' (or 'intervals.php', 'intervals.java', 'intervals.cs').
 - A file must contain only two functions: intervalContruction() and intervalIdentification().
 - We'll need read permission to your repository to check your solution. Add @lanavasilieva to your repository and give a Developer role.
-- Send a link to your repository and attach your CV to academy@syberry.com
-- In your email write us a letter-answer to the question "Why I want to study in Syberry Academy". You can write both in English or Russian on your choice. The letter may be as long as you want it to: we want to understand your motivation.
+- Upload your CV to your repository.
+- Send a link to your repository with solved task and CV to academy@syberry.com. Email subject: "Name Surname Syberry Academy %Specialization% %Language%" where %Specialization% is either BE or FE, and %Language% is the language you're using to solve our tasks. For example, "Jane Doe Syberry Academy BE Java"
