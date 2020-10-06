@@ -73,7 +73,6 @@ Your task is to implement two functions that'll work with intervals: one will co
 - Only the following note names are allowed in a return string: <br>
 C C# Db D D# Eb E F F# Gb G G# Ab A A# Bb B
 - If there are more or fewer elements in the array, an exception should be thrown: "Illegal number of elements in input array"
-
 <br>
 Convention: ['a', 'b'] here means an array of strings
 <br>
@@ -120,3 +119,6 @@ m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8
 - User @lanavasilieva `MUST` be added as a Developer
 - Your CV `MUST` be in your GitHub repository
 - Your CV may be in any form. Several lines about you in the .txt document will do
+<br>
+<br>
+I sincerely apologize to my Music Theory Teacher and to all of you who know music theory for my wrong usage of musical terms!
