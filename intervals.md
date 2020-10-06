@@ -24,7 +24,7 @@ For example, there is 4 semitones distance between C and E, 5 semitones distance
 
 If we add any accidentals to the notes that form an interval, by definition the notes do not change their degree. As a consequence, any interval has the same interval number as the corresponding [natural interval](https://en.wikipedia.org/wiki/Natural_(music)) (means an interval formed by the same notes without accidentals). For instance, the intervals C–G♯ (spanning 8 semitones) and C♯–G (spanning 6 semitones) are fifths, like the corresponding natural interval C–G (7 semitones).
 
-Notice that interval numbers represent an inclusive count of contained degrees or the note names, but not the difference between the endpoints. In other words, you count the first note as one, not zero. For that reason, the interval C–C, a perfect unison, is called a prime - P1 - (meaning "1"), even though there is no difference between the endpoints. By the same logic, the interval C–D is a second, M2, but D is only one degree above C. Similarly, C–E is a third, M3, but E is only two degrees above C, and so on.
+Notice that interval numbers represent an inclusive count of contained degrees or the note names, but not the difference between the endpoints. In other words, you count the first note as one, not zero. By thi logic, the interval C–D is a second (M2), but D is only one degree above C. Similarly, C–E is a third (M3), but E is only two degrees above C, and so on.
 
 We will only use intervals up to an octave (P8, 12 semitones). 
 
