@@ -20,7 +20,7 @@ The following table shows 12 notes of a chromatic scale built on C. Distance bet
 
 C C#/Db D D#/Eb E F F#/Gb G G#/Ab A A#/Bb B
 
-For example, there is 4 semitones distance between C and E, 5 semitones distance between D# and G, and 1 semitone distance between Bb and B.
+For example, there is 4 semitones distance between C and E, 5 semitones distance between D and G, and 1 semitone distance between Bb and B.
 
 If we add any accidentals to the notes that form an interval, by definition the notes do not change their degree. As a consequence, any interval has the same interval number as the corresponding [natural interval](https://en.wikipedia.org/wiki/Natural_(music)) (means an interval formed by the same notes without accidentals). For instance, the intervals C–G♯ (spanning 8 semitones) and C♯–G (spanning 6 semitones) are fifths, like the corresponding natural interval C–G (7 semitones).
 
@@ -73,7 +73,7 @@ Your task is to implement two functions that'll work with intervals: one will co
 - Only the following note names are allowed in a return string: <br>
 C C# Db D D# Eb E F F# Gb G G# Ab A A# Bb B
 - If there are more or fewer elements in the array, an exception should be thrown: "Illegal number of elements in input array"
-<br>
+
 Convention: ['a', 'b'] here means an array of strings
 <br>
 
