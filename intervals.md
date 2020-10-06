@@ -103,3 +103,16 @@ m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8
 - We'll need read permission to your repository to check your solution. Add @lanavasilieva to your repository and give a Developer role.
 - Upload your CV to your repository.
 - Send a link to your repository with solved task and CV to academy@syberry.com. Email subject: "Name Surname Syberry Academy %Specialization% %Language%" where %Specialization% is either BE or FE, and %Language% is the language you're using to solve our tasks. For example, "Jane Doe Syberry Academy BE Java"
+
+### What's next
+- If you did well on our task, our Recruiter will call you and invite you to a technical interview
+- If not, we'll send you an email with your results and comments
+**We promise to reach you in 5 working days starting the day you send us your email**
+
+### Sanity Check: Please Double Check this Requirements
+**The following requirements 'MUST' be completed. If not, we won't check your task.**
+- The 'intervals.__' file 'MUST' in your GitHub repository
+- The repository 'MUST' be private
+- User @lanavasilieva 'MUST' be added as a Developer
+- Your CV 'MUST' be in your GitHub repository
+- Your CV may be in any form. Several lines about you in the .txt document will do
