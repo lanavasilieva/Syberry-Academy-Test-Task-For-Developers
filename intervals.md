@@ -74,6 +74,10 @@ Your task is to implement two functions that'll work with intervals: one will co
 C C# Db D D# Eb E F F# Gb G G# Ab A A# Bb B
 - If there are more or fewer elements in the array, an exception should be thrown: "Illegal number of elements in input array"
 
+<br>
+Convention: ['a', 'b'] here means an array of strings
+<br>
+
 **Input examples and meaning:** <br>
 ['M3', 'A', 'asc'] - build an ascending M3 interval starting from A <br>
 ['m7, 'Fb', 'dsc'] - build an descending m7 interval starting from Fb <br>
@@ -98,7 +102,7 @@ m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
 - The end time is the time of your last commit in your repository.
-- Submit one file named 'intervals.js' (or 'intervals.php', 'intervals.java', 'intervals.cs').
+- Submit one file named `intervals.js` (or `intervals.php`, `intervals.java`, `intervals.cs`).
 - A file must contain only two functions: intervalContruction() and intervalIdentification().
 - We'll need read permission to your repository to check your solution. Add @lanavasilieva to your repository and give a Developer role.
 - Upload your CV to your repository.
@@ -106,13 +110,13 @@ m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8
 
 ### What's next
 - If you did well on our task, our Recruiter will call you and invite you to a technical interview
-- If not, we'll send you an email with your results and comments
+- If not, we'll send you an email with your results and comments <br>
 **We promise to reach you in 5 working days starting the day you send us your email**
 
 ### Sanity Check: Please Double Check this Requirements
-**The following requirements 'MUST' be completed. If not, we won't check your task.**
-- The 'intervals.__' file 'MUST' in your GitHub repository
-- The repository 'MUST' be private
-- User @lanavasilieva 'MUST' be added as a Developer
-- Your CV 'MUST' be in your GitHub repository
+**The following requirements `MUST` be completed. If not, we won't check your task.**
+- The `intervals.__` file `MUST` in your GitHub repository
+- The repository `MUST` be private
+- User @lanavasilieva `MUST` be added as a Developer
+- Your CV `MUST` be in your GitHub repository
 - Your CV may be in any form. Several lines about you in the .txt document will do
