@@ -12,7 +12,7 @@ In music theory, [an interval](https://en.wikipedia.org/wiki/Interval_(music)) i
 As in maths, if we're saying than the distance on a centimeter ruler between 3 and 5 is 2 centimeters, in music we're saying that the distance between C and E (or 'do' and 'mi') is M3. <br>
 
 For the purpose of this task, we're using the following note names: <br>
-C D E F G A B
+C D E F G A B <br>
 
 The whole list of intervals we're using in this task: <br>
 m2, M2, m3, M3, P4, P5, m6, M6, m7, M7, P8 <br>
@@ -71,7 +71,7 @@ m7 - Minor Seventh - 10 semitones, 7 degrees <br>
 M7 - Major Seventh - 11 semitones, 7 degrees <br>
 P8 - Perfect Octave - 12 semitones, 8 degrees <br>
 
-Your task is to implement two functions that'll work with intervals: one will construct an interval and the second will identify the interval.
+Your task is to implement two functions that'll work with intervals: one will construct an interval and the second will identify the interval. <br>
 
 ### Requirements:
 **intervalConstruction**
