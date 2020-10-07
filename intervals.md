@@ -1,8 +1,11 @@
 ### Syberry Academy Test Task
 **A word of advice** <br>
 In Academy we expect you to know how to read requirements and how to code in your language. <br>
+
 To prove this ability in you, we ask you to implement this task and submit it via GitHub to confirm that you are ready to study in Academy. <br>
+
 This task requires approximately 12 to 48 working hours to solve. It does not mean that **you** will solve it in 12-48 hours. It is ok to spend as many hours as you think is needed. <br>
+
 We suggest you spend at least several hours reading the task and modeling the solution. We tested this task on our engineers: several Syberry Junior Developers on average spent 10 hours reading and thinking and approximately 2 hours of programming it.
 
 ### Applied Music Theory
@@ -27,7 +30,7 @@ The following table shows 12 notes of a chromatic scale built on C. Distance bet
 
 C C#/Db D D#/Eb E F F#/Gb G G#/Ab A A#/Bb B <br>
 
-For example, there is 4 semitones distance between C and E, 5 semitones distance between D and G, and 1 semitone distance between Bb and B. <br>
+For example, there are 4 semitones distance between C and E, 5 semitones distance between D and G, and 1 semitone distance between Bb and B. <br>
 
 If we add any accidentals to the notes that form an interval, by definition the notes do not change their degree. As a consequence, any interval has the same interval number as the corresponding [natural interval](https://en.wikipedia.org/wiki/Natural_(music)) (means an interval formed by the same notes without accidentals). For instance, the intervals C–G# (spanning 8 semitones) and C#–G (spanning 6 semitones) are fifths, like the corresponding natural interval C–G (7 semitones). <br>
 
@@ -42,23 +45,26 @@ Then you have to count the number of semitones from the starting note. In C D E 
 Here one dash means one semitone: <br>
 C--D--E-F--G--A--B-C <br>
 
-For example, let's count the number of semitones between C and G: C to D - 2 semitones, D to E - 2 semitones, E to F - 1 semitone, F to G - 2 semitones. 2 + 2 + 1 + 2 = 7 semitones. <br>
+**Example** <br>
+Let's count the number of semitones between C and G: C to D - 2 semitones, D to E - 2 semitones, E to F - 1 semitone, F to G - 2 semitones. 2 + 2 + 1 + 2 = 7 semitones. <br>
 Now let's find the number of semitones between A and C: A to B - 2 semitones, B to C - 1 semitone. 2 + 1 = 3 semitones. <br>
 
-Now let's find our first interval - P5 (perfect fifth) from Ab. P5 means: find a distance of 5 degrees and 7 semitones. <br>
+**Example** <br>
+Now let's find our first interval - **P5 (perfect fifth) from Ab**. P5 means: find a distance of 5 degrees and 7 semitones. <br>
 First, find the 5th degree from A, ignoring 'b': <br>
 (A B C D E) - E is the 5th-degree note from A. <br>
 Now count semitones: from Ab to B - 3 semitones, from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 3 + 1 + 2 + 2 = 8 semitones. This is too much, we need only 7 semitones, but we need to stay on E. To do so, lower E by one semitone using accidental 'b'.<br>
-At P5 distance from Ab is the note Eb. <br>
+**At P5 distance from Ab is the note Eb.** <br>
 Note: you can't write D# as an answer, because even if D# is 7 semitones from Ab, it has a different degree (it takes only 4 degrees from A to D). <br>
 
-To show you how to work with accidentals, let's find P5 (5th degree, 7 semitones) from A#: <br>
+**Example** <br>
+To show you how to work with accidentals, let's **find P5 (5th degree, 7 semitones) from A#**: <br>
 As in a previous example, find the 5th degree from A, ignoring '#': <br>
 (A B C D E) - E is the 5th note from A (and from A#). <br>
 Now count semitones: from A# to B - 1 semitone, from B to C - 2 semitones. from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 2 + 2 + 2 = 7 semitones. This is exactly what we need. <br>
-At P5 distance from A is the note E. <br>
+**At P5 distance from A is the note E**. <br>
 
-Intervals names, quality, and quantity: <br>
+**Intervals names, quality, and quantity** <br>
 m2 - Minor Second - 1 semitone, 2 degrees <br>
 M2 - Major Second - 2 semitones, 2 degrees <br>
 m3 - Minor Third - 3 semitones, 3 degrees <br>
@@ -81,8 +87,8 @@ Your task is to implement two functions that'll work with intervals: one will co
 - If there is no third element in an array, the building order is ascending by default.
 - The function should return a string containing a note name.
 - Only the following note names are allowed in a return string: <br>
-C C# Db D D# Eb E F F# Gb G G# Ab A A# Bb B
-- If there are more or fewer elements in the array, an exception should be thrown: "Illegal number of elements in input array"
+Cb C C# Db D D# Eb E F F# Gb G G# Ab A A# Bb B B#
+- If there are more or fewer elements in the input array, an exception should be thrown: "Illegal number of elements in input array"
 
 Convention: ['a', 'b'] here means an array of strings
 <br>
