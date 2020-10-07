@@ -35,15 +35,15 @@ Then you have to count the number of semitones from the starting note. In C D E 
 For example, let's count the number of semitones between C and G: C to D - 2 semitones, D to E - 2 semitones, E to F - 1 semitone, F to G - 2 semitones. 2 + 2 + 1 + 2 = 7 semitones. <br>
 Now let's find the number of semitones between A and C: A to B - 2 semitones, B to C - 1 semitone. 2 + 1 = 3 semitones.
 
-Now let's find our first interval - P5 (perfect fifth) from A. P5 means: find a distance of 5 degrees and 7 semitones.
-First, find the 5th degree from A:
+Now let's find our first interval - P5 (perfect fifth) from Ab. P5 means: find a distance of 5 degrees and 7 semitones.
+First, find the 5th degree from A, ignoring 'b':
 (A B C D E) - E is the 5th-degree note from A.
-Now count semitones: from A to B - 2 semitones, from B to C - 2 semitones, from C to  D - 2 semitones, from D to E - 2 semitones. 2 + 2 + 2 + 2 = 8 semitones. This is too much, we need only 7 semitones, but we need to stay on E. To do so, lower E by one semitone using accidental 'b'.
-At P5 distance from A is the note Eb.
-Note: you can't write D# as an answer, because even if D# is 7 semitones from A, it has a different degree (it takes only 4 degrees from A to D).
+Now count semitones: from Ab to B - 3 semitones, from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 3 + 1 + 2 + 2 = 8 semitones. This is too much, we need only 7 semitones, but we need to stay on E. To do so, lower E by one semitone using accidental 'b'.
+At P5 distance from Ab is the note Eb.
+Note: you can't write D# as an answer, because even if D# is 7 semitones from Ab, it has a different degree (it takes only 4 degrees from A to D).
 
 To show you how to work with accidentals, let's find P5 (5th degree, 7 semitones) from A#:
-As in a previous example, find the 5th degree from A, ignoring #:
+As in a previous example, find the 5th degree from A, ignoring '#':
 (A B C D E) - E is the 5th note from A (and from A#).
 Now count semitones: from A# to B - 1 semitone, from B to C - 2 semitones. from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 2 + 2 + 2 = 7 semitones. This is exactly what we need.
 At P5 distance from A is the note E.
