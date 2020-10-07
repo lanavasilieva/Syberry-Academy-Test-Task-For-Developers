@@ -2,14 +2,14 @@
 **A word of advice** <br>
 In Academy we expect you to know how to read requirements and how to code in your language. <br>
 To prove this ability in you, we ask you to implement this task and submit it via GitHub to confirm that you are ready to study in Academy. <br>
-This task requires approximately 12 to 48 working hours to solve. It does not mean that you will solve it in 12-48 hours. It is ok to spend as many hours as you think is needed. <br>
-We suggest you spend at least several hours reading the task and modeling the solution. We tested this task on our engineers: several Syberry Junior Developers on average spent 10 hours reading and thinking and approximately 2 hours of programming.
+This task requires approximately 12 to 48 working hours to solve. It does not mean that **you** will solve it in 12-48 hours. It is ok to spend as many hours as you think is needed. <br>
+We suggest you spend at least several hours reading the task and modeling the solution. We tested this task on our engineers: several Syberry Junior Developers on average spent 10 hours reading and thinking and approximately 2 hours of programming it.
 
 ### Applied Music Theory
 
-In music theory, [an interval](https://en.wikipedia.org/wiki/Interval_(music)) is a distance between two notes. This distance is specified using a letter and a number. For example, valid names of intervals are M3, P5, or m7. The letter and the number in the interval name mean specific things.
+In music theory, [an interval](https://en.wikipedia.org/wiki/Interval_(music)) is a distance between two notes. This distance is specified using a letter and a number. For example, valid names of intervals are M3, P5, or m7. The letter and the number in the interval name mean specific things.<br>
 
-As in maths, if we're saying than the distance on a centimeter ruler between 3 and 5 is 2 centimeters, in music we're saying that the distance between C and E (or 'do' and 'mi') is M3. 
+As in maths, if we're saying than the distance on a centimeter ruler between 3 and 5 is 2 centimeters, in music we're saying that the distance between C and E (or 'do' and 'mi') is M3. <br>
 
 For the purpose of this task, we're using the following note names: <br>
 C D E F G A B
@@ -17,43 +17,46 @@ C D E F G A B
 The whole list of intervals we're using in this task: <br>
 m2, M2, m3, M3, P4, P5, m6, M6, m7, M7, P8 <br>
 
-The number of an interval is the number of letter names or [staff positions](https://en.wikipedia.org/wiki/Staff_position) (lines and spaces) it contains, including the positions of both notes forming the interval. For instance, the interval C–G is a fifth (denoted P5) because the notes from C to the G above it contain five letter names (C, D, E, F, G) and occupy five consecutive staff positions, including the positions of C and G. The interval from A to A contains 8 notes (A B C D E F G A) and is called P8. We will call this number a **diatonic degree** (please note: the term 'degree' we are using here may not correspond to the actual term in music).
+The number of an interval is the number of letter names or [staff positions](https://en.wikipedia.org/wiki/Staff_position) (lines and spaces) it contains, including the positions of both notes forming the interval. For instance, the interval C–G is a fifth (denoted P5) because the notes from C to the G above it contain five letter names (C, D, E, F, G) and occupy five consecutive staff positions, including the positions of C and G. The interval from A to A contains 8 notes (A B C D E F G A) and is called P8. We will call this number a **diatonic degree** (please note: the term 'degree' we are using here may not correspond to the actual term in music).<br>
 
-The one unit of a distance between notes is called a semitone.
+The one unit of a distance between notes is called **a semitone**.<br>
 
-Letter names can be modified by the accidentals. The sharp sign '#' raises a note by a semitone, and a flat 'b' lowers it by a semitone. 
+Letter names can be modified by **the accidentals**. The **sharp '#'** raises a note by a semitone, and a **flat 'b'** lowers it by a semitone. <br>
 
-The following table shows 12 notes of a chromatic scale built on C. Distance between each note in a table is a semitone. Note that the same note can be described using different letters. For example, if we raise C by a semitone, we'll get C#. And if we lower D by a semitone, we'll get Db.
+The following table shows 12 notes of a chromatic scale built on C. Distance between each note in a table is a semitone. Note that the same note can be described using different letters. For example, if we raise C by a semitone, we'll get C#. And if we lower D by a semitone, we'll get Db. <br>
 
-C C#/Db D D#/Eb E F F#/Gb G G#/Ab A A#/Bb B
+C C#/Db D D#/Eb E F F#/Gb G G#/Ab A A#/Bb B <br>
 
-For example, there is 4 semitones distance between C and E, 5 semitones distance between D and G, and 1 semitone distance between Bb and B.
+For example, there is 4 semitones distance between C and E, 5 semitones distance between D and G, and 1 semitone distance between Bb and B. <br>
 
-If we add any accidentals to the notes that form an interval, by definition the notes do not change their degree. As a consequence, any interval has the same interval number as the corresponding [natural interval](https://en.wikipedia.org/wiki/Natural_(music)) (means an interval formed by the same notes without accidentals). For instance, the intervals C–G♯ (spanning 8 semitones) and C♯–G (spanning 6 semitones) are fifths, like the corresponding natural interval C–G (7 semitones).
+If we add any accidentals to the notes that form an interval, by definition the notes do not change their degree. As a consequence, any interval has the same interval number as the corresponding [natural interval](https://en.wikipedia.org/wiki/Natural_(music)) (means an interval formed by the same notes without accidentals). For instance, the intervals C–G# (spanning 8 semitones) and C#–G (spanning 6 semitones) are fifths, like the corresponding natural interval C–G (7 semitones). <br>
 
-Notice that interval numbers represent an inclusive count of contained degrees or the note names, but not the difference between the endpoints. In other words, you count the first note as one, not zero. By thi logic, the interval C–D is a second (M2), but D is only one degree above C. Similarly, C–E is a third (M3), but E is only two degrees above C, and so on.
+Notice that interval numbers represent an inclusive count of contained degrees or the note names, but not the difference between the endpoints. In other words, you count the first note as one, not zero. By thi logic, the interval C–D is a second (M2), but D is only one degree above C. Similarly, C–E is a third (M3), but E is only two degrees above C, and so on. <br>
 
-We will only use intervals up to an octave (P8, 12 semitones). 
+We will only use intervals up to an octave (P8, 12 semitones).  <br>
 
-To build an interval from the given note, you first have to find a note diatonic degree lower or higher than a given note.
+To build an interval from the given note, you first have to find a note diatonic degree lower or higher than a given note. <br>
 
-Then you have to count the number of semitones from the starting note. In C D E F G A B sequence there is one semitone between E and F and B and C. Between other notes there are two semitones.
+Then you have to count the number of semitones from the starting note. In C D E F G A B sequence there is one semitone between E and F and B and C. Between other notes there are two semitones. <br>
+
+Here one dash means one semitone: <br>
+C--D--E-F--G--A--B-C <br>
 
 For example, let's count the number of semitones between C and G: C to D - 2 semitones, D to E - 2 semitones, E to F - 1 semitone, F to G - 2 semitones. 2 + 2 + 1 + 2 = 7 semitones. <br>
-Now let's find the number of semitones between A and C: A to B - 2 semitones, B to C - 1 semitone. 2 + 1 = 3 semitones.
+Now let's find the number of semitones between A and C: A to B - 2 semitones, B to C - 1 semitone. 2 + 1 = 3 semitones. <br>
 
-Now let's find our first interval - P5 (perfect fifth) from Ab. P5 means: find a distance of 5 degrees and 7 semitones.
-First, find the 5th degree from A, ignoring 'b':
-(A B C D E) - E is the 5th-degree note from A.
-Now count semitones: from Ab to B - 3 semitones, from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 3 + 1 + 2 + 2 = 8 semitones. This is too much, we need only 7 semitones, but we need to stay on E. To do so, lower E by one semitone using accidental 'b'.
-At P5 distance from Ab is the note Eb.
-Note: you can't write D# as an answer, because even if D# is 7 semitones from Ab, it has a different degree (it takes only 4 degrees from A to D).
+Now let's find our first interval - P5 (perfect fifth) from Ab. P5 means: find a distance of 5 degrees and 7 semitones. <br>
+First, find the 5th degree from A, ignoring 'b': <br>
+(A B C D E) - E is the 5th-degree note from A. <br>
+Now count semitones: from Ab to B - 3 semitones, from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 3 + 1 + 2 + 2 = 8 semitones. This is too much, we need only 7 semitones, but we need to stay on E. To do so, lower E by one semitone using accidental 'b'.<br>
+At P5 distance from Ab is the note Eb. <br>
+Note: you can't write D# as an answer, because even if D# is 7 semitones from Ab, it has a different degree (it takes only 4 degrees from A to D). <br>
 
-To show you how to work with accidentals, let's find P5 (5th degree, 7 semitones) from A#:
-As in a previous example, find the 5th degree from A, ignoring '#':
-(A B C D E) - E is the 5th note from A (and from A#).
-Now count semitones: from A# to B - 1 semitone, from B to C - 2 semitones. from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 2 + 2 + 2 = 7 semitones. This is exactly what we need.
-At P5 distance from A is the note E.
+To show you how to work with accidentals, let's find P5 (5th degree, 7 semitones) from A#: <br>
+As in a previous example, find the 5th degree from A, ignoring '#': <br>
+(A B C D E) - E is the 5th note from A (and from A#). <br>
+Now count semitones: from A# to B - 1 semitone, from B to C - 2 semitones. from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 2 + 2 + 2 = 7 semitones. This is exactly what we need. <br>
+At P5 distance from A is the note E. <br>
 
 Intervals names, quality, and quantity: <br>
 m2 - Minor Second - 1 semitone, 2 degrees <br>
