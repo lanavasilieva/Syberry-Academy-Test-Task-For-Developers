@@ -1,4 +1,6 @@
 ### Syberry Academy Test Task
+Task updated: Wednesday, October 7, 2020, 4PM (GMT+3) <br>
+
 **A word of advice** <br>
 In Academy we expect you to know how to read requirements and how to code in your language. <br>
 
