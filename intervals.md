@@ -1,3 +1,10 @@
+### Syberry Academy Test Task
+**A word of advice** <br>
+In Academy we expect you to know how to read requirements and how to code in your language. <br>
+To prove this ability in you, we ask you to implement this task and submit it via GitHub to confirm that you are ready to study in Academy. <br>
+This task requires approximately 12 to 48 working hours to solve. It does not mean that you will solve it in 12-48 hours. It is ok to spend as many hours as you think is needed. <br>
+We suggest you spend at least several hours reading the task and modeling the solution. We tested this task on our engineers: several Syberry Junior Developers on average spent 10 hours reading and thinking and approximately 2 hours of programming.
+
 ### Applied Music Theory
 
 In music theory, [an interval](https://en.wikipedia.org/wiki/Interval_(music)) is a distance between two notes. This distance is specified using a letter and a number. For example, valid names of intervals are M3, P5, or m7. The letter and the number in the interval name mean specific things.
