@@ -111,18 +111,20 @@ Convention: ['a', 'b'] here means an array of strings
 
 **intervalIdentification** <br>
 - The function 'intervalIdentification' must take an array of strings as input and return a string.
-- An array contains two elements.
-- The first element is the first note in the interval, the second element is the second note in the interval.
+- An array contains three or two elements.
+- The first element is the first note in the interval, the second element is the second note in the interval, the third indicates whether an interval is ascending or descending.
+- If there is no third element in an array, the interval is considered ascending by default.
 - The function should return a string - name of the interval.
 - Only the following intervals are allowed in a return string: <br>
 m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8
 - If the interval does not fit a description, an exception should be thrown: "Cannot identify the interval".
 
 **Input examples and meaning:** <br>
-['C', 'D'] - find an interval between C and D <br>
-['C#', 'Fb'] - find an interval between C# and Fb <br>
-['A', 'G#'] - find an interval between A and G# <br>
+['C', 'D'] - find an ascending interval between C and D <br>
+['C#', 'Fb'] - find an ascending interval between C# and Fb <br>
+['A', 'G#', 'asc'] - find an ascending interval between A and G# <br>
 
+You may find [more examples here](examples.md). We will test your solution on this and similar examples.
 
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
