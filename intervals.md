@@ -1,5 +1,6 @@
 ### Syberry Academy Test Task
-Task updated: Wednesday, October 7, 2020, 4PM (GMT+3) <br>
+Task updated: Thu, October 8, 2020, 11:40AM (GMT+3) <br>
+If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
 
 **A word of advice** <br>
 In Academy we expect you to know how to read requirements and how to code in your language. <br>
@@ -26,7 +27,7 @@ The number of an interval is the number of letter names or [staff positions](htt
 
 The one unit of a distance between notes is called **a semitone**.<br>
 
-Letter names can be modified by **the accidentals**. The **sharp '#'** raises a note by a semitone, and a **flat 'b'** lowers it by a semitone. <br>
+Letter names can be modified by **the accidentals**. The **sharp '#'** raises a note by a semitone, and a **flat 'b'** lowers it by a semitone. You can add at most two sharp signs and two flat signs to the note.<br>
 
 The following table shows 12 notes of a chromatic scale built on C. Distance between each note in a table is a semitone. Note that the same note can be described using different letters. For example, if we raise C by a semitone, we'll get C#. And if we lower D by a semitone, we'll get Db. <br>
 
@@ -66,6 +67,13 @@ As in a previous example, find the 5th degree from A, ignoring '#': <br>
 Now count semitones: from A# to B - 1 semitone, from B to C - 2 semitones. from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 2 + 2 + 2 = 7 semitones. This is exactly what we need. <br>
 **At P5 distance from A is the note E**. <br>
 
+**Example** <br>
+Let's find m2 (2nd degree, 1 semitone) from Fb:
+To find a second degree is easy: (F G) - G is the second note from F. <br>
+Now count semitones: from Fb to G is 3 semitones. This is way too much, we need just one. SO we have to lower G by 2 semitones. To do so, add two flat 'b' signs to G note: Gbb. <br>
+**At m2 distance from Fb is the note Gbb**. <br>
+
+
 **Intervals names, quality, and quantity** <br>
 m2 - Minor Second - 1 semitone, 2 degrees <br>
 M2 - Major Second - 2 semitones, 2 degrees <br>
@@ -89,7 +97,7 @@ Your task is to implement two functions that'll work with intervals: one will co
 - If there is no third element in an array, the building order is ascending by default.
 - The function should return a string containing a note name.
 - Only the following note names are allowed in a return string: <br>
-Cb C C# Db D D# Eb E F F# Gb G G# Ab A A# Bb B B#
+Cbb Cb C C# C## Dbb Db D D# D## Ebb Eb E E# E## Fbb Fb F F# F## Gbb Gb G G# G## Abb Ab A A# A## Bbb Bb B B# B##
 - If there are more or fewer elements in the input array, an exception should be thrown: "Illegal number of elements in input array"
 
 Convention: ['a', 'b'] here means an array of strings
