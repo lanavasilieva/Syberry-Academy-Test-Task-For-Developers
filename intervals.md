@@ -104,6 +104,7 @@ Convention: ['a', 'b'] here means an array of strings
 <br>
 
 **Input examples and meaning:** <br>
+Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention!
 ['M3', 'A', 'asc'] - build an ascending M3 interval starting from A <br>
 ['m7, 'Fb', 'dsc'] - build an descending m7 interval starting from Fb <br>
 ['P5', 'C'] - build an ascending P5 interval starting from C <br>
@@ -119,7 +120,11 @@ Convention: ['a', 'b'] here means an array of strings
 m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8
 - If the interval does not fit a description, an exception should be thrown: "Cannot identify the interval".
 
+Convention: ['a', 'b'] here means an array of strings
+<br>
+
 **Input examples and meaning:** <br>
+Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention!
 ['C', 'D'] - find an ascending interval between C and D <br>
 ['C#', 'Fb'] - find an ascending interval between C# and Fb <br>
 ['A', 'G#', 'asc'] - find an ascending interval between A and G# <br>

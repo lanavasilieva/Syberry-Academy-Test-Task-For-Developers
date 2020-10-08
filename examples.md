@@ -1,5 +1,6 @@
-**intervalConstruction**
+Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention!
 
+**intervalConstruction**<br>
 |Input|Output|
 |---|---|
 |['M2', 'C', 'asc'|D|
@@ -21,9 +22,9 @@
 |['B', 'F#','asc']|P5|
 |['Fb', 'Gbb']|m2|
 |['G', 'F#', 'asc']|M7|
-|['', '']||
-|['', '']||
-|['', '']||
+|['Bb', 'A', 'dsc']|m2|
+|['Cb', 'Abb', 'dsc']|M3|
+|['G#', 'D#', 'dsc']|P4|
 |['', '']||
 |['', '']||
 |['', '']||
