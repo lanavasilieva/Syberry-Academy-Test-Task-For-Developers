@@ -25,6 +25,6 @@ Please note: Tha data your function will get will look like an array of strings 
 |['Bb', 'A', 'dsc']|m2|
 |['Cb', 'Abb', 'dsc']|M3|
 |['G#', 'D#', 'dsc']|P4|
-|['', '']||
-|['', '']||
-|['', '']||
+|['E', 'B', 'dsc']|P4|
+|['E#', 'D#', 'dsc']|M2|
+|['B', 'G#', 'dsc']|m3|
