@@ -134,7 +134,7 @@ You may find [more examples here](examples.md). We will test your solution on th
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
 - The end time is the time of your last commit in your repository.
-- Submit one file named `intervals.js` (or `intervals.php`, `intervals.java`, `intervals.cs`).
+- Submit one file named `intervals.js` (or `intervals.php`, `intervals.java`).
 - A file must contain only two functions: intervalContruction() and intervalIdentification().
 - We'll need read permission to your repository to check your solution. Add @lanavasilieva to your repository and give a Developer role.
 - Upload your CV to your repository.
