@@ -3,7 +3,7 @@ Please note: Tha data your function will get will look like an array of strings 
 **intervalConstruction**<br>
 |Input|Output|
 |---|---|
-|['M2', 'C', 'asc'|D|
+|['M2', 'C', 'asc']|D|
 |['P5', 'B', 'asc']|F#|
 |['m2', 'Bb', 'dsc']|A|
 |['M3', 'Cb', 'dsc']|Abb|
@@ -19,7 +19,7 @@ Please note: Tha data your function will get will look like an array of strings 
 |Input|Output|
 |---|---|
 |['C', 'D']|M2|
-|['B', 'F#','asc']|P5|
+|['B', 'F#', 'asc']|P5|
 |['Fb', 'Gbb']|m2|
 |['G', 'F#', 'asc']|M7|
 |['Bb', 'A', 'dsc']|m2|
