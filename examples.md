@@ -2,7 +2,6 @@ Please note: Tha data your function will get will look like an array of strings 
 **Please make sure your solution runs correctly with these test cases!** <br>
 
 
-
 ### Test Data
 **intervalConstruction**<br>
 |Input|Output|
