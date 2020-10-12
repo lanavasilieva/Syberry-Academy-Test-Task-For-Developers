@@ -1,5 +1,5 @@
-### Syberry Academy Test Task
-Task updated: Thu, October 8, 2020, 3:50PM (GMT+3) <br>
+## Syberry Academy Test Task
+Task updated: Thu, October 8, 2020, 3:50 PM (GMT+3) <br>
 If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
 
 **A word of advice** <br>
@@ -10,6 +10,10 @@ To prove this ability in you, we ask you to implement this task and submit it vi
 This task requires approximately 12 to 48 working hours to solve. It does not mean that **you** will solve it in 12-48 hours. It is ok to spend as many hours as you think is needed. <br>
 
 We suggest you spend at least several hours reading the task and modeling the solution. We tested this task on our engineers: several Syberry Junior Developers on average spent 10 hours reading and thinking and approximately 2 hours of programming it.
+
+### Task Deadline: 1 week
+We start a countdown from the moment you clicked the "Registration" button on the Academy website. <br>
+We accept applications before Friday, November 13, 2020, 11:59 PM (GMT+3)
 
 ### Applied Music Theory
 
