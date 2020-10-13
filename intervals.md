@@ -1,5 +1,5 @@
 ## Syberry Academy Test Task
-Task updated: Thu, October 8, 2020, 3:50 PM (GMT+3) <br>
+Task updated: Tue, October 13, 2020, 10:35 PM (GMT+3) <br>
 If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
 
 **A word of advice** <br>
@@ -135,6 +135,16 @@ Please note: Tha data your function will get will look like an array of strings 
 
 You may find [more examples here](examples.md). We will test your solution on this and similar examples.
 
+### Language Specific Requirements
+#### Java
+Class Name: `Intervals` <br>
+`intervalIdentification` and `intervalConstruction` `MUST` be static <br>
+packages are prohibited
+
+#### PHP
+Class Name: `Intervals` <br>
+There should be no namespace
+
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
 - The end time is the time of your last commit in your repository.
@@ -151,10 +161,16 @@ You may find [more examples here](examples.md). We will test your solution on th
 
 ### Sanity Check: Please Double Check this Requirements
 **The following requirements `MUST` be completed. If not, we won't check your task.**
-- The `intervals.__` file `MUST` in your GitHub repository
+- The `intervals.__` file `MUST` in your GitHub repository **in the root folder** (see example)
+- Your CV `MUST` be in your GitHub repository (see example)
+```
+Jane-Doe-Academy-Test-Task
+    cv.md
+    intervals.md
+    README.md
+```
 - The repository `MUST` be private
 - User @SyberryAcademy `MUST` be added as a Developer
-- Your CV `MUST` be in your GitHub repository
 - Your CV may be in any form. Several lines about you in the .txt document will do
 <br>
 <br>
