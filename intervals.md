@@ -140,7 +140,7 @@ You may find [more examples here](examples.md). We will test your solution on th
 - The end time is the time of your last commit in your repository.
 - Submit one file named `intervals.js` (or `intervals.php`, `intervals.java`).
 - A file must contain only two functions: intervalContruction() and intervalIdentification().
-- We'll need read permission to your repository to check your solution. Add @lanavasilieva to your repository and give a Developer role.
+- We'll need read permission to your repository to check your solution. Add @SyberryAcademy to your repository and give a Developer role.
 - Upload your CV to your repository.
 - Send a link to your repository with solved task and CV to academy@syberry.com. Email subject: "Name Surname Syberry Academy %Specialization% %Language%" where %Specialization% is either BE or FE, and %Language% is the language you're using to solve our tasks. For example, "Jane Doe Syberry Academy BE Java"
 
@@ -153,7 +153,7 @@ You may find [more examples here](examples.md). We will test your solution on th
 **The following requirements `MUST` be completed. If not, we won't check your task.**
 - The `intervals.__` file `MUST` in your GitHub repository
 - The repository `MUST` be private
-- User @lanavasilieva `MUST` be added as a Developer
+- User @SyberryAcademy `MUST` be added as a Developer
 - Your CV `MUST` be in your GitHub repository
 - Your CV may be in any form. Several lines about you in the .txt document will do
 <br>
