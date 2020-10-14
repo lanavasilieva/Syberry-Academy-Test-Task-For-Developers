@@ -101,7 +101,7 @@ Your task is to implement two functions that'll work with intervals: one will co
 - If there is no third element in an array, the building order is ascending by default.
 - The function should return a string containing a note name.
 - Only the following note names are allowed in a return string: <br>
-Cbb Cb C C# C## Dbb Db D D# D## Ebb Eb E E# E## Fbb Fb F F# F## Gbb Gb G G# G## Abb Ab A A# A## Bbb Bb B B# B##
+Cbb Cb C C# C## Dbb Db D D# D## Ebb Eb E E# E## Fbb Fb F F# F## Gbb Gb G G# G## Abb Ab A A# A## Bbb Bb B B# B## <br>
 - If there are more or fewer elements in the input array, an exception should be thrown: "Illegal number of elements in input array"
 
 Convention: ['a', 'b'] here means an array of strings
