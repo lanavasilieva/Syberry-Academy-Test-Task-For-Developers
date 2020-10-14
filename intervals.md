@@ -1,5 +1,5 @@
 ## Syberry Academy Test Task
-Task updated: Tue, October 13, 2020, 10:35 PM (GMT+3) <br>
+Task updated: Wed, October 14, 2020, 1:20 PM (GMT+3) <br>
 If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
 
 **A word of advice** <br>
@@ -136,20 +136,18 @@ Please note: Tha data your function will get will look like an array of strings 
 You may find [more examples here](examples.md). We will test your solution on this and similar examples.
 
 ### Language Specific Requirements
+You 'MUST' use [predefined files and functions](predefined-files). **DO NOT CHANGE FILE AND FUNCTIONS NAMES**. <br>
+
 #### Java
 Class Name: `Intervals` <br>
 `intervalIdentification` and `intervalConstruction` `MUST` be static <br>
 packages are prohibited
 
-#### PHP
-Class Name: `Intervals` <br>
-There should be no namespace
-
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
 - The end time is the time of your last commit in your repository.
-- Submit one file named `intervals.js` (or `intervals.php`, `intervals.java`).
-- A file must contain only two functions: intervalContruction() and intervalIdentification().
+- Submit one file named `intervals.js` (or `intervals.php`, `intervals.java`). [Please find these files here](predefined-files).
+- A file must contain only two functions: intervalContruction() and intervalIdentification() [as defined here](predefined-files).
 - We'll need read permission to your repository to check your solution. Add @SyberryAcademy to your repository and give a Developer role.
 - Upload your CV to your repository.
 - Send a link to your repository with solved task and CV to academy@syberry.com. Email subject: "Name Surname Syberry Academy %Specialization% %Language%" where %Specialization% is either BE or FE, and %Language% is the language you're using to solve our tasks. For example, "Jane Doe Syberry Academy BE Java"
@@ -166,7 +164,7 @@ There should be no namespace
 ```
 Jane-Doe-Academy-Test-Task
     cv.md
-    intervals.md
+    intervals.java
     README.md
 ```
 - The repository `MUST` be private
