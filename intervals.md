@@ -110,7 +110,7 @@ Convention: ['a', 'b'] here means an array of strings
 **Input examples and meaning:** <br>
 Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention! <br>
 The following notes are allowed in input: <br>
-Cbb Cb C C# C## Dbb Db D D# D## Ebb Eb E E# E## Fbb Fb F F# F## Gbb Gb G G# G## Abb Ab A A# A## Bbb Bb B B# B##
+Cb C C# Db D D# Eb E E# Fb F F# Gb G G# Ab A A# Bb B B#
 The following intervals are allowed in input: <br>
 m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8 <br>
 <br>
