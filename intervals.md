@@ -136,12 +136,12 @@ Please note: Tha data your function will get will look like an array of strings 
 You may find [more examples here](examples.md). We will test your solution on this and similar examples.
 
 ### Language Specific Requirements
-You 'MUST' use [predefined files and functions](predefined-files). **DO NOT CHANGE FILE AND FUNCTIONS NAMES**. <br>
+You 'MUST' use [predefined files and functions](predefined-files). **DO NOT CHANGE FILE NAME AND FUNCTIONS NAMES AND PARAMETERS**. <br>
 
 #### Java
 Class Name: `Intervals` <br>
-`intervalIdentification` and `intervalConstruction` `MUST` be static <br>
-packages are prohibited
+Functions `intervalIdentification` and `intervalConstruction` `MUST` be static <br>
+Do not add packages
 
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
@@ -155,7 +155,7 @@ packages are prohibited
 ### What's next
 - If you did well on our task, our Recruiter will call you and invite you to a technical interview
 - If not, we'll send you an email with your results and comments <br>
-**We promise to reach you in 5 working days starting the day you send us your email**
+**We promise to reach you in 5 working days starting the day you sent us your email**
 
 ### Sanity Check: Please Double Check this Requirements
 **The following requirements `MUST` be completed. If not, we won't check your task.**
@@ -164,7 +164,21 @@ packages are prohibited
 ```
 Jane-Doe-Academy-Test-Task
     cv.md
+    intervals.php
+    README.md
+```
+
+```
+Keanu-Reeves-Academy-Test-Task
+    cv.txt
     intervals.java
+    README.md
+```
+
+```
+Henry-Cavill-Academy-Test-Task
+    cv.pdf
+    intervals.js
     README.md
 ```
 - The repository `MUST` be private
