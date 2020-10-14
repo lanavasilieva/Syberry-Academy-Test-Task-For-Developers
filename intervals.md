@@ -68,8 +68,8 @@ Note: you can't write D# as an answer, because even if D# is 7 semitones from Ab
 To show you how to work with accidentals, let's **find P5 (5th degree, 7 semitones) from A#**: <br>
 As in a previous example, find the 5th degree from A, ignoring '#': <br>
 (A B C D E) - E is the 5th note from A (and from A#). <br>
-Now count semitones: from A# to B - 1 semitone, from B to C - 2 semitones. from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 2 + 2 + 2 = 7 semitones. This is exactly what we need. <br>
-**At P5 distance from A is the note E**. <br>
+Now count semitones: from A# to B - 1 semitone, from B to C - 1 semitone. from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 1 + 2 + 2 = 6 semitones. We need to add just one semitone by adding #: E# <br>
+**At P5 distance from A# is the note E#**. <br>
 
 **Example** <br>
 Let's find m2 (2nd degree, 1 semitone) from Fb:
@@ -109,6 +109,11 @@ Convention: ['a', 'b'] here means an array of strings
 
 **Input examples and meaning:** <br>
 Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention! <br>
+The following notes are allowed in input: <br>
+Cbb Cb C C# C## Dbb Db D D# D## Ebb Eb E E# E## Fbb Fb F F# F## Gbb Gb G G# G## Abb Ab A A# A## Bbb Bb B B# B##
+The following intervals are allowed in input: <br>
+m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8 <br>
+<br>
 ['M3', 'A', 'asc'] - build an ascending M3 interval starting from A <br>
 ['m7, 'Fb', 'dsc'] - build an descending m7 interval starting from Fb <br>
 ['P5', 'C'] - build an ascending P5 interval starting from C <br>
@@ -129,6 +134,9 @@ Convention: ['a', 'b'] here means an array of strings
 
 **Input examples and meaning:** <br>
 Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention! <br>
+The following notes are allowed in input: <br>
+Cbb Cb C C# C## Dbb Db D D# D## Ebb Eb E E# E## Fbb Fb F F# F## Gbb Gb G G# G## Abb Ab A A# A## Bbb Bb B B# B## <br>
+<br>
 ['C', 'D'] - find an ascending interval between C and D <br>
 ['C#', 'Fb'] - find an ascending interval between C# and Fb <br>
 ['A', 'G#', 'asc'] - find an ascending interval between A and G# <br>
