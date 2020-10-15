@@ -1,6 +1,7 @@
 ## Syberry Academy Test Task
-Task updated: Wed, October 14, 2020, 1:20 PM (GMT+3) <br>
+Task updated: **Thu, October 15, 2020, 3:50 PM (GMT+3)** <br>
 If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
+If you've found a mistake in task description, please don't hesitate to make a merge request! <br>
 
 **A word of advice** <br>
 In Academy we expect you to know how to read requirements and how to code in your language. <br>
@@ -162,7 +163,7 @@ Use [predefined file](predefined-files/intervals.js) <br>
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
 - The end time is the time of your last commit in your repository.
-- Submit one file named `intervals.js` (or `intervals.php`, `intervals.java`). [Please find these files here](predefined-files).
+- Submit one file named `intervals.js` (or `intervals.php`, `Intervals.java`). [Please find these files here](predefined-files).
 - A file must contain only two functions: intervalContruction() and intervalIdentification() [as defined here](predefined-files).
 - We'll need read permission to your repository to check your solution. Add @SyberryAcademy to your repository and give a Developer role.
 - Upload your CV to your repository.
@@ -187,7 +188,7 @@ Jane-Doe-Academy-Test-Task
 ```
 Keanu-Reeves-Academy-Test-Task
     cv.txt
-    intervals.java
+    Intervals.java
     README.md
 ```
 
