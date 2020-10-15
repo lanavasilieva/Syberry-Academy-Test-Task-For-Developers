@@ -60,7 +60,7 @@ Now let's find the number of semitones between A and C: A to B - 2 semitones, B 
 Now let's find our first interval - **P5 (perfect fifth) from Ab**. P5 means: find a distance of 5 degrees and 7 semitones. <br>
 First, find the 5th degree from A, ignoring 'b': <br>
 (A B C D E) - E is the 5th-degree note from A. <br>
-Now count semitones: from Ab to B - 3 semitones, from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 3 + 1 + 2 + 2 = 8 semitones. This is too much, we need only 7 semitones, but we need to stay on E. To do so, lower E by one semitone using accidental 'b'.<br>
+Now count semitones: from Ab to B - 3 semitones (from Ab to A - 1 semitone, from A to B - 2 semitones), from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 3 + 1 + 2 + 2 = 8 semitones. This is too much, we need only 7 semitones, but we need to stay on E. To do so, lower E by one semitone using accidental 'b'.<br>
 **At P5 distance from Ab is the note Eb.** <br>
 Note: you can't write D# as an answer, because even if D# is 7 semitones from Ab, it has a different degree (it takes only 4 degrees from A to D). <br>
 
@@ -68,7 +68,7 @@ Note: you can't write D# as an answer, because even if D# is 7 semitones from Ab
 To show you how to work with accidentals, let's **find P5 (5th degree, 7 semitones) from A#**: <br>
 As in a previous example, find the 5th degree from A, ignoring '#': <br>
 (A B C D E) - E is the 5th note from A (and from A#). <br>
-Now count semitones: from A# to B - 1 semitone, from B to C - 1 semitone. from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 1 + 2 + 2 = 6 semitones. We need to add just one semitone by adding #: E# <br>
+Now count semitones: from A# to B - 1 semitone, from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 1 + 2 + 2 = 6 semitones. We need to add just one semitone by adding #: E# <br>
 **At P5 distance from A# is the note E#**. <br>
 
 **Example** <br>
@@ -146,10 +146,18 @@ You may find [more examples here](examples.md). We will test your solution on th
 ### Language Specific Requirements
 You 'MUST' use [predefined files and functions](predefined-files). **DO NOT CHANGE FILE NAME AND FUNCTIONS NAMES AND PARAMETERS**. <br>
 
-#### Java
+**for Java** <br>
 Class Name: `Intervals` <br>
 Functions `intervalIdentification` and `intervalConstruction` `MUST` be static <br>
-Do not add packages
+Do not add packages <br>
+Use [predefined file](predefined-files/Intervals.java) <br>
+
+**for PHP** <br>
+Use [predefined file](predefined-files/intervals.php) <br>
+
+**for JS** <br>
+Use [predefined file](predefined-files/intervals.js) <br>
+
 
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
