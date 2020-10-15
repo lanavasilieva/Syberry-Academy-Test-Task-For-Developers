@@ -111,7 +111,7 @@ Convention: ['a', 'b'] here means an array of strings
 **Input examples and meaning:** <br>
 Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention! <br>
 The following notes are allowed in input: <br>
-Cb C C# Db D D# Eb E E# Fb F F# Gb G G# Ab A A# Bb B B#
+Cb C C# Db D D# Eb E E# Fb F F# Gb G G# Ab A A# Bb B B# <br>
 The following intervals are allowed in input: <br>
 m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8 <br>
 <br>
@@ -201,6 +201,5 @@ Henry-Cavill-Academy-Test-Task
 - The repository `MUST` be private
 - User @SyberryAcademy `MUST` be added as a Developer
 - Your CV may be in any form. Several lines about you in the .txt document will do
-<br>
-<br>
-I sincerely apologize to my Music Theory Teacher and to all of you who know music theory for my wrong usage of musical terms!
+
+Good Luck and We hope to see You in Syberry Academy!
