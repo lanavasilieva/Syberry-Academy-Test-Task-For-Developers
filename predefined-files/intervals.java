@@ -1,4 +1,4 @@
-public class Intervals {
+public class Intervals { //File name differs from Class name?
 
     public static String intervalConstruction(String[] args) {
     }
