@@ -1,9 +1,6 @@
 ## Syberry Academy Test Task
-<<<<<<< HEAD
-Task updated: Tue, October 20, 2020, 4:56 PM (GMT+3) <br>
-=======
-Task updated: **Thu, October 15, 2020, 3:50 PM (GMT+3)** <br>
->>>>>>> 3a90b83db2782733ef1a1346d46cf39c60f25bc7
+
+**Task updated: Tue, October 20, 2020, 4:56 PM (GMT+3)** <br>
 If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
 If you've found a mistake in task description, please don't hesitate to make a merge request! <br>
 
