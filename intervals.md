@@ -161,6 +161,7 @@ Use [predefined file](predefined-files/Intervals.java) <br>
 Use [predefined file](predefined-files/intervals.php) <br>
 
 **for JS** <br>
+Do not use 'console.log'<br>
 Use [predefined file](predefined-files/intervals.js) <br>
 
 ### How to submit
