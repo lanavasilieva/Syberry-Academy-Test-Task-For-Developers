@@ -1,5 +1,5 @@
 ## Syberry Academy Test Task
-Task updated: Wed, October 14, 2020, 1:20 PM (GMT+3) <br>
+Task updated: Tue, October 20, 2020, 4:56 PM (GMT+3) <br>
 If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
 
 **A word of advice** <br>
@@ -110,7 +110,7 @@ Convention: ['a', 'b'] here means an array of strings
 **Input examples and meaning:** <br>
 Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention! <br>
 The following notes are allowed in input: <br>
-Cb C C# Db D D# Eb E E# Fb F F# Gb G G# Ab A A# Bb B B#
+Cb C C# Db D D# Eb E E# Fb F F# Gb G G# Ab A A# Bb B B# <br>
 The following intervals are allowed in input: <br>
 m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8 <br>
 <br>
@@ -150,6 +150,7 @@ You 'MUST' use [predefined files and functions](predefined-files). **DO NOT CHAN
 Class Name: `Intervals` <br>
 Functions `intervalIdentification` and `intervalConstruction` `MUST` be static <br>
 Do not add packages
+Java Version: 14 and older
 
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
