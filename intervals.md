@@ -1,6 +1,11 @@
 ## Syberry Academy Test Task
+<<<<<<< HEAD
 Task updated: Tue, October 20, 2020, 4:56 PM (GMT+3) <br>
+=======
+Task updated: **Thu, October 15, 2020, 3:50 PM (GMT+3)** <br>
+>>>>>>> 3a90b83db2782733ef1a1346d46cf39c60f25bc7
 If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
+If you've found a mistake in task description, please don't hesitate to make a merge request! <br>
 
 **A word of advice** <br>
 In Academy we expect you to know how to read requirements and how to code in your language. <br>
@@ -60,7 +65,7 @@ Now let's find the number of semitones between A and C: A to B - 2 semitones, B 
 Now let's find our first interval - **P5 (perfect fifth) from Ab**. P5 means: find a distance of 5 degrees and 7 semitones. <br>
 First, find the 5th degree from A, ignoring 'b': <br>
 (A B C D E) - E is the 5th-degree note from A. <br>
-Now count semitones: from Ab to B - 3 semitones, from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 3 + 1 + 2 + 2 = 8 semitones. This is too much, we need only 7 semitones, but we need to stay on E. To do so, lower E by one semitone using accidental 'b'.<br>
+Now count semitones: from Ab to B - 3 semitones (from Ab to A - 1 semitone, from A to B - 2 semitones), from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 3 + 1 + 2 + 2 = 8 semitones. This is too much, we need only 7 semitones, but we need to stay on E. To do so, lower E by one semitone using accidental 'b'.<br>
 **At P5 distance from Ab is the note Eb.** <br>
 Note: you can't write D# as an answer, because even if D# is 7 semitones from Ab, it has a different degree (it takes only 4 degrees from A to D). <br>
 
@@ -68,7 +73,7 @@ Note: you can't write D# as an answer, because even if D# is 7 semitones from Ab
 To show you how to work with accidentals, let's **find P5 (5th degree, 7 semitones) from A#**: <br>
 As in a previous example, find the 5th degree from A, ignoring '#': <br>
 (A B C D E) - E is the 5th note from A (and from A#). <br>
-Now count semitones: from A# to B - 1 semitone, from B to C - 1 semitone. from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 1 + 2 + 2 = 6 semitones. We need to add just one semitone by adding #: E# <br>
+Now count semitones: from A# to B - 1 semitone, from B to C - 1 semitone, from C to  D - 2 semitones, from D to E - 2 semitones. 1 + 1 + 2 + 2 = 6 semitones. We need to add just one semitone by adding #: E# <br>
 **At P5 distance from A# is the note E#**. <br>
 
 **Example** <br>
@@ -146,16 +151,25 @@ You may find [more examples here](examples.md). We will test your solution on th
 ### Language Specific Requirements
 You 'MUST' use [predefined files and functions](predefined-files). **DO NOT CHANGE FILE NAME AND FUNCTIONS NAMES AND PARAMETERS**. <br>
 
-#### Java
+**for Java** <br>
 Class Name: `Intervals` <br>
 Functions `intervalIdentification` and `intervalConstruction` `MUST` be static <br>
-Do not add packages
+Do not add packages <br>
 Java Version: 14 and older
+
+Do not add packages <br>
+Use [predefined file](predefined-files/Intervals.java) <br>
+
+**for PHP** <br>
+Use [predefined file](predefined-files/intervals.php) <br>
+
+**for JS** <br>
+Use [predefined file](predefined-files/intervals.js) <br>
 
 ### How to submit
 - Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
 - The end time is the time of your last commit in your repository.
-- Submit one file named `intervals.js` (or `intervals.php`, `intervals.java`). [Please find these files here](predefined-files).
+- Submit one file named `intervals.js` (or `intervals.php`, `Intervals.java`). [Please find these files here](predefined-files).
 - A file must contain only two functions: intervalContruction() and intervalIdentification() [as defined here](predefined-files).
 - We'll need read permission to your repository to check your solution. Add @SyberryAcademy to your repository and give a Developer role.
 - Upload your CV to your repository.
@@ -180,7 +194,7 @@ Jane-Doe-Academy-Test-Task
 ```
 Keanu-Reeves-Academy-Test-Task
     cv.txt
-    intervals.java
+    Intervals.java
     README.md
 ```
 
@@ -193,6 +207,5 @@ Henry-Cavill-Academy-Test-Task
 - The repository `MUST` be private
 - User @SyberryAcademy `MUST` be added as a Developer
 - Your CV may be in any form. Several lines about you in the .txt document will do
-<br>
-<br>
-I sincerely apologize to my Music Theory Teacher and to all of you who know music theory for my wrong usage of musical terms!
+
+Good Luck and We hope to see You in Syberry Academy!
