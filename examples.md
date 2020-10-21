@@ -9,7 +9,7 @@ Please note: Tha data your function will get will look like an array of strings 
 |['M2', 'C', 'asc']|D|
 |['P5', 'B', 'asc']|F#|
 |['m2', 'Bb', 'dsc']|A|
-|['M3', 'Cb', 'dsc']|Abb|
+|['M3', 'Cb', 'dsc']|Ab|
 |['P4', 'G#', 'dsc']|D#|
 |['m3', 'B', 'dsc']|G#|
 |['m2', 'Fb', 'asc']|Gbb|
@@ -26,7 +26,7 @@ Please note: Tha data your function will get will look like an array of strings 
 |['Fb', 'Gbb']|m2|
 |['G', 'F#', 'asc']|M7|
 |['Bb', 'A', 'dsc']|m2|
-|['Cb', 'Abb', 'dsc']|M3|
+|['Cb', 'Abb', 'dsc']|error|
 |['G#', 'D#', 'dsc']|P4|
 |['E', 'B', 'dsc']|P4|
 |['E#', 'D#', 'dsc']|M2|
