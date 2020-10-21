@@ -152,7 +152,9 @@ You 'MUST' use [predefined files and functions](predefined-files). **DO NOT CHAN
 Class Name: `Intervals` <br>
 Functions `intervalIdentification` and `intervalConstruction` `MUST` be static <br>
 Do not add packages <br>
-Java Version: 14 and older
+Java Version: 14 and older //I've commited my test task a week ago with java 15. Why you changed the Java requirements to java 14?
+
+
 
 Do not add packages <br>
 Use [predefined file](predefined-files/Intervals.java) <br>
