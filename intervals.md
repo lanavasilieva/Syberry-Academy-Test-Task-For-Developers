@@ -43,7 +43,7 @@ For example, there are 4 semitones distance between C and E, 5 semitones distanc
 
 If we add any accidentals to the notes that form an interval, by definition the notes do not change their degree. As a consequence, any interval has the same interval number as the corresponding [natural interval](https://en.wikipedia.org/wiki/Natural_(music)) (means an interval formed by the same notes without accidentals). For instance, the intervals C–G# (spanning 8 semitones) and C#–G (spanning 6 semitones) are fifths, like the corresponding natural interval C–G (7 semitones). <br>
 
-Notice that interval numbers represent an inclusive count of contained degrees or the note names, but not the difference between the endpoints. In other words, you count the first note as one, not zero. By thi logic, the interval C–D is a second (M2), but D is only one degree above C. Similarly, C–E is a third (M3), but E is only two degrees above C, and so on. <br>
+Notice that interval numbers represent an inclusive count of contained degrees or the note names, but not the difference between the endpoints. In other words, you count the first note as one, not zero. By this logic, the interval C–D is a second (M2), but D is only one degree above C. Similarly, C–E is a third (M3), but E is only two degrees above C, and so on. <br>
 
 We will only use intervals up to an octave (P8, 12 semitones).  <br>
 
@@ -110,7 +110,7 @@ Convention: ['a', 'b'] here means an array of strings
 <br>
 
 **Input examples and meaning:** <br>
-Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention! <br>
+Please note: The data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention! <br>
 The following notes are allowed in input: <br>
 Cb C C# Db D D# Eb E E# Fb F F# Gb G G# Ab A A# Bb B B# <br>
 The following intervals are allowed in input: <br>
@@ -124,7 +124,7 @@ m2 M2 m3 M3 P4 P5 m6 M6 m7 M7 P8 <br>
 **intervalIdentification** <br>
 - The function 'intervalIdentification' must take an array of strings as input and return a string.
 - An array contains three or two elements.
-- The first element is the first note in the interval, the second element is the second note in the interval, the third indicates whether an interval is ascending or descending.
+- The first element is the first note in the interval, the second element is the last note in the interval, the third indicates whether an interval is ascending or descending.
 - If there is no third element in an array, the interval is considered ascending by default.
 - The function should return a string - name of the interval.
 - Only the following intervals are allowed in a return string: <br>
@@ -135,7 +135,7 @@ Convention: ['a', 'b'] here means an array of strings
 <br>
 
 **Input examples and meaning:** <br>
-Please note: Tha data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention! <br>
+Please note: The data your function will get will look like an array of strings as defined in your language. No additional parsing is needed! The form ['', ''] is just a convention! <br>
 The following notes are allowed in input: <br>
 Cbb Cb C C# C## Dbb Db D D# D## Ebb Eb E E# E## Fbb Fb F F# F## Gbb Gb G G# G## Abb Ab A A# A## Bbb Bb B B# B## <br>
 <br>
