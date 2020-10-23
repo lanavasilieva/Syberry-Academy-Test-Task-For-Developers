@@ -1,6 +1,6 @@
 ## Syberry Academy Test Task
 
-**Task updated: Tue, October 20, 2020, 4:56 PM (GMT+3)** <br>
+**Task updated: Fri, October 23, 2020, 4:00 PM (GMT+3)** <br>
 If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
 If you've found a mistake in task description, please don't hesitate to make a merge request! <br>
 
@@ -152,16 +152,17 @@ You 'MUST' use [predefined files and functions](predefined-files). **DO NOT CHAN
 Class Name: `Intervals` <br>
 Functions `intervalIdentification` and `intervalConstruction` `MUST` be static <br>
 Do not add packages <br>
-Java Version: 14 and older
-
+Java Version: 14 and older <br>
+Do not use `System.out.*` or any other output methods<br>
 Do not add packages <br>
 Use [predefined file](predefined-files/Intervals.java) <br>
 
 **for PHP** <br>
+Do not use `echo` or `print` any other output methods<br>
 Use [predefined file](predefined-files/intervals.php) <br>
 
 **for JS** <br>
-Do not use `console.log`<br>
+Do not use `console.log` or any other output methods <br>
 Use [predefined file](predefined-files/intervals.js) <br>
 
 ### How to submit
@@ -181,6 +182,7 @@ Use [predefined file](predefined-files/intervals.js) <br>
 ### Sanity Check: Please Double Check this Requirements
 **The following requirements `MUST` be completed. If not, we won't check your task.**
 - The `intervals.__` file `MUST` in your GitHub repository **in the root folder** (see example)
+- Do not use output methods
 - Your CV `MUST` be in your GitHub repository (see example)
 ```
 Jane-Doe-Academy-Test-Task
