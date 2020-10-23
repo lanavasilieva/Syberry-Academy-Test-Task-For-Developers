@@ -166,7 +166,7 @@ Do not use `console.log` or any other output methods <br>
 Use [predefined file](predefined-files/intervals.js) <br>
 
 ### How to submit
-- Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task. It is important to have your repository PRIVATE. We won't check solutions in the public repository.
+- Create your personal private repository in GitHub. Name it Name-Surname-Academy-Test-Task (this means that in the name of this repository you must replace "Name" with your first name, and the "Surname" with your surname). It is important to have your repository PRIVATE. We won't check solutions in the public repository.
 - The end time is the time of your last commit in your repository.
 - Submit one file named `intervals.js` (or `intervals.php`, `Intervals.java`). [Please find these files here](predefined-files).
 - A file `MUST` contain two functions: intervalContruction() and intervalIdentification() [as defined here](predefined-files). You may add any other functionality to the file.
