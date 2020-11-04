@@ -1,6 +1,6 @@
 ## Syberry Academy Test Task
 
-**Task updated: Fri, October 23, 2020, 4:00 PM (GMT+3)** <br>
+**Task updated: Wed, November 4, 2020, 6:00 PM (GMT+3)** <br>
 If you started your task **before** the latest update, we suggest you to go through the requirements once again! <br>
 If you've found a mistake in task description, please don't hesitate to make a merge request! <br>
 
@@ -13,7 +13,7 @@ This task requires approximately 12 to 48 working hours to solve. It does not me
 
 We suggest you spend at least several hours reading the task and modeling the solution. We tested this task on our engineers: several Syberry Junior Developers on average spent 10 hours reading and thinking and approximately 2 hours of programming it.
 
-### Task Deadline: 1 week
+### Task Deadline: 3 days
 We start a countdown from the moment you clicked the "Registration" button on the Academy website. <br>
 We accept applications before Friday, November 13, 2020, 11:59 PM (GMT+3)
 
